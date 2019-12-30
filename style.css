@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.clear{
+    clear: both;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+h3 {
+     font-size: 2.8rem;
+}
+
+button {
+    font-size: 1.8rem;
+}
+
+nav {
+    background: lightcoral;
+    color: greenyellow;
+    padding: 3rem;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin: 0rem 4rem;
+}
+
+.Shop {
+    background-image: url(./images/Food.jpg);
+    height: 100rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: indigo;
+    padding-top: 15rem;
+    text-shadow: 4px 3px 3px black;
+}
+
+.Shop button {
+    padding: 0.6rem 3rem;
+    margin-top: 3rem;
+    background-color: lawngreen;
+    color: lightblue;
+    border: none;
+    cursor: pointer;
+
+}
+
+.form-section {
+    text-align: center;
+}
+
+form{
+
+}
+form input, form label,form textarea{
+   display: block; 
+   font-size: 2.2rem;
+}
+
+form input, form textarea {
+    margin: 2rem auto;
+}
+
+form button {
+    margin: 1.5rem;
+    cursor: pointer;
+    padding: 0.6rem 3rem;
+    background-color: greenyellow;
+    color: lightblue;
+    border: none;
+}
